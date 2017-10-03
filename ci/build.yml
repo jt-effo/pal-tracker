@@ -15,7 +15,7 @@ outputs:
 run:
   path: bash
   args:
-  - -exc
+  - -exec
   - |
     cd pal-tracker
     ./gradlew build
